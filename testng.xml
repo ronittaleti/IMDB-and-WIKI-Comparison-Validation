@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite">
+	<listeners>
+		<listener class-name="com.ronittaleti.TestListener" />
+	</listeners>
+	<parameter name="IMDBMovieLink" value="https://www.imdb.com/title/tt8115900/"/>  
+	<parameter name="WikipediaMovieLink" value="https://en.wikipedia.org/wiki/The_Bad_Guys_(film)"/>  
+	<test name = "IMDB-Wikipedia-Comparison-Test">
+		<classes>
+			<class name = "com.ronittaleti.MainTestNG"/>
+		</classes>
+	</test>
+</suite>
