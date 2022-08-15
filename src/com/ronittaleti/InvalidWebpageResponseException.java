@@ -2,9 +2,10 @@ package com.ronittaleti;
 
 import java.io.IOException;
 
+// Simple exception class, used in the case that a URL is valid, but the webpage threw an invalid response (such as a 404).
 public class InvalidWebpageResponseException extends IOException {
 
-	 private String code;
+	private String code;
 
     public InvalidWebpageResponseException(String code, String message) {
         super(message);

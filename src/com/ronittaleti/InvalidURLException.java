@@ -2,9 +2,10 @@ package com.ronittaleti;
 
 import java.io.IOException;
 
+// Simple exception class, used in the case that a URL was deemed invalid.
 public class InvalidURLException extends IOException {
 
-	 private String code;
+	private String code;
 
     public InvalidURLException(String code, String message) {
         super(message);

@@ -4,6 +4,7 @@ package com.ronittaleti;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
+// Simple test listener class to print the results of the tests.
 public class TestListener extends TestListenerAdapter {
 
 	@Override
