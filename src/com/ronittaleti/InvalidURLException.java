@@ -1,4 +1,5 @@
 package com.ronittaleti;
+
 import java.io.IOException;
 
 public class InvalidURLException extends IOException {

@@ -1,10 +1,10 @@
 package com.ronittaleti;
+
 import static org.testng.Assert.assertEquals;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.ListIterator;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
@@ -13,8 +13,6 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.ITestResult;
-import org.testng.TestListenerAdapter;
 import org.testng.TestNG;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
