@@ -31,3 +31,6 @@ target/
 
 # TestNG generated output folder
 test-output/
+
+# Eclipse settings folder
+.settings/
